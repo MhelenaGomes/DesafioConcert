@@ -1,1 +1,48 @@
 # DesafioConcert
+
+## Descrição:
+- [x] Criar um projeto de automação de testes utilizando o Selenium WebDriver com o Dotnet na
+versão mais recente. 
+- [x] Automatizar a página de busca do Google validando os pontos que forem importantes para assegurar que a página está funcionando conforme o esperado. 
+- [x] Crie quantos cenários de automação achar necessário.
+- [ ] Avaliar e criticar a usabilidade da página de buscas do Google.
+- [x] Documentar todo o processo para subir a aplicação, preferencialmente no arquivo
+“README”
+
+## Pré requisitos para rodar o projeto: 
+- **Dotnet version:** 7.0.101
+- **Selenium WebDriver version:** 4.7.0 
+- **Selenium ChromeDriver version:** 108.0.5359.7100
+- **MSTest framework version:** 2.2.7
+
+## Como rodar a aplicação:
+
+Clonar repositório 
+```
+git clone https://github.com/MhelenaGomes/DesafioConcert.git
+```
+
+Acesse a pasta do projeto:
+```
+cd DesafioConcert
+```
+
+Abrir arquivo DesafioConcert
+```
+cd DesafioConcert.sln no Visual Studio
+```
+No explorador de arquivos, clique com o botão direito no arquivo UnitTest1.cs e selecione a opção 'Executar testes'.
+Após o build, os testes irão rodar automaticamente através Chromedriver configurado.
+
+### Casos de teste:
+- Pesquisar texto 'Concert' (PesquisaTextoConcert())
+Descrição do teste:
+
+- Pesquisa através do botão 'Estou com sorte' (PesquisaEstouComSorte())
+descrição do teste:
+
+- Pesquisar por palavra escrita incorretamente (PesquisaPalavraEscritaIncorretamente())
+descrição do teste:
+
+## Sobre a usabilidade do google.com:
+-

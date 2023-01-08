@@ -79,7 +79,7 @@ namespace Google.Testes.Buscador
             driver.FindElement(By.Name("q")).Click();
             driver.FindElement(By.Name("q")).Clear();
             driver.FindElement(By.Name("q")).SendKeys("A melhor telinologia com c");
-            driver.FindElement(By.XPath("//div[4]/center/input")).Click();
+            driver.FindElement(By.Name("q")).SendKeys(Keys.Enter);
 
             Assert.IsNotNull(driver.FindElement(By.XPath("//a[@id='fprsl']/b/i")).Equals("A melhor tecnologia com c"));
 

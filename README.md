@@ -27,10 +27,8 @@ Acesse a pasta do projeto:
 cd DesafioConcert
 ```
 
-Abrir arquivo DesafioConcert
-```
-cd DesafioConcert.sln no Visual Studio
-```
+Abrir arquivo DesafioConcert.sln no Visual Studio
+
 No explorador de arquivos, clique com o botão direito no arquivo UnitTest1.cs e selecione a opção 'Executar testes'.
 Após o build, os testes irão rodar automaticamente através Chromedriver configurado.
 

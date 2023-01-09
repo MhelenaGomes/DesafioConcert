@@ -1,6 +1,10 @@
 <img src="https://media.licdn.com/dms/image/C4D0BAQFb0bZla2jbkw/company-logo_200_200/0/1622565821434?e=2147483647&v=beta&t=GA-igH_8LQIIWW54DvHIzM6gbnA284cQutpnhOTP7AA" >
 
 # DesafioConcert
+## 📝 Avaliação Escrita:
+
+Segue o link para acesso a avaliação:                      
+(https://drive.google.com/drive/folders/1-3zqjMxO_Ol_JnPu1JXfP9d2xmhyodGn?usp=share_link)
 
 ## 📘 Descrição:
 - [x] Criar um projeto de automação de testes utilizando o Selenium WebDriver com o Dotnet na

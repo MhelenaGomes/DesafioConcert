@@ -5,7 +5,7 @@
 versão mais recente. 
 - [x] Automatizar a página de busca do Google validando os pontos que forem importantes para assegurar que a página está funcionando conforme o esperado. 
 - [x] Crie quantos cenários de automação achar necessário.
-- [ ] Avaliar e criticar a usabilidade da página de buscas do Google.
+- [x] Avaliar e criticar a usabilidade da página de buscas do Google.
 - [x] Documentar todo o processo para subir a aplicação, preferencialmente no arquivo
 “README”
 
@@ -35,14 +35,16 @@ No explorador de arquivos, clique com o botão direito no arquivo UnitTest1.cs e
 Após o build, os testes irão rodar automaticamente através Chromedriver configurado.
 
 ### Casos de teste:
-- Pesquisar texto 'Concert' (PesquisaTextoConcert())
-Descrição do teste:
+- **Pesquisar texto 'Concert' (PesquisaTextoConcert())**  
+_Descrição do teste:_ Verifica se retorna os resultados correspondentes a pesquisa do texto “Concert Tecnologies”.
 
-- Pesquisa através do botão 'Estou com sorte' (PesquisaEstouComSorte())
-descrição do teste:
+- **Pesquisa através do botão 'Estou com sorte' (PesquisaEstouComSorte())**   
+_Descrição do teste:_ Verifica se está sendo encaminhado corretamente a página https://www.concert.com.br/ após selecionar o botão estou sorte.
 
-- Pesquisar por palavra escrita incorretamente (PesquisaPalavraEscritaIncorretamente())
-descrição do teste:
+- **Pesquisar por palavra escrita incorretamente (PesquisaPalavraEscritaIncorretamente())**  
+_Descrição do teste:_ Verifica se ao pesquisar uma palavra escrita de forma errada, a página retorna com uma sugestão exibindo a palavra corretamente.
 
 ## Sobre a usabilidade do google.com:
--
+- Possui uma ótima usabilidade ao utilizar o campo de pesquisa, a ferramenta oferece sugestões de palavras que ajudam o usuário efetuar a sua pesquisa de forma mais rápida e correta.
+- Apresenta um layout simples onde a página exibe apenas um campo de busca, por conta disso se torna uma ferramenta fácil utilização.
+
